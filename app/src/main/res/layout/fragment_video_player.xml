@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="?attr/colorPrimary"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VideoPlayerFragment">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:controller_layout_id="@layout/controller"
+        app:show_buffering="when_playing"
+        app:use_controller="true"
+        app:auto_show="true"
+        app:resize_mode="fixed_height"/>
+
+</com.google.android.material.card.MaterialCardView>

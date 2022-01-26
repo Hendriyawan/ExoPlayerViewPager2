@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewpager_next_item">20dp</dimen>
+    <dimen name="view_pager_margin_left">25dp</dimen>
+    <dimen name="viewpager_current_item">26dp</dimen>
+</resources>
